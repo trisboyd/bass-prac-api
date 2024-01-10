@@ -13,8 +13,6 @@ use rocket::routes;
 use rocket_contrib::json::{Json, JsonValue};
 use serde_json::json;
 
-use serde_derive::{Deserialize, Serialize};
-
 use crate::schema::songs::dsl::songs;
 
 pub use models::{NewSong, Song, UpdateSong};
